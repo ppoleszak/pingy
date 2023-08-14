@@ -33,7 +33,6 @@ Upon execution, the script will:
 2. Ping all potential hosts in your subnet (presuming a /24 network).
 3. Save the active hosts' IP addresses to a sorted file named `SORTED_[YOUR_OCTETS].txt`.
 4. Conduct a quick port scan on each detected host using `nmap`.
-5. Display the results on the terminal and simultaneously save them to `nmap_output.txt`.
 
 ### Output
 
