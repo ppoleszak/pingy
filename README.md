@@ -40,6 +40,3 @@ Throughout its operation, **Pingy** offers real-time feedback:
 1. It discloses the extracted octets from your IP.
 2. It displays which hosts within the subnet are active.
 3. It presents a list of open ports and the respective services for every detected host.
-
-In addition to terminal feedback, all output will also be stored in a file named `nmap_output.txt`, allowing for detailed post-operation analysis.
-
