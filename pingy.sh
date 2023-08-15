@@ -52,7 +52,7 @@ sort -o "$OUTPUT_FILE" "$OUTPUT_FILE"
 # Display the current activity
 echo -e "${GREEN}Running nmap scan on found hosts...\n${SEPARATOR}${RESET}"
 
-# Perform scan by nmap, filter the output and add separators between hosts
+# Perform scan by nmap
 nmap -sS -iL "$OUTPUT_FILE"
 
 exit
